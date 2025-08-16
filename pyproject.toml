@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mobile-game-ad-detection"
+version = "0.1.0"
+description = "Utilities for finding parts of ads in mobile games for automation purposes"
+authors = [{name = "Kevin Vosburgh"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
